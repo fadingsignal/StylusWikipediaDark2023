@@ -1,0 +1,146 @@
+/* ==UserStyle==
+@name           1/22/2023, 12:03:19 AM
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    A dark stony / pastel theme for the new 2023 Wikipedia re-design
+@author         Rob Vogel (fadingsignal)
+==/UserStyle== */
+
+@-moz-document domain("wikipedia.org") {
+    body
+    {
+        background-color: #111 !important;
+        font-family: Calibri !important;
+        /*font-size: 14pt;
+        letter-spacing: -0.5pt;*/
+        background: url('https://i.imgur.com/PIJ74C1.jpg');
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    
+    .infobox-above
+    {
+        background-color: #1a282a !important;
+        color: #CCC !important;
+    }
+    
+    .quotebox, .side-box
+    {
+        background-color: #222 !important;
+    }
+    
+    tr, td, tbody, table, .navbox, .sister-bar
+    {
+        background-color: #181818 !important; 
+        border: 1px solid #333 !important;
+    }
+    
+        
+    .wikitable tr td, .wikitable p
+    {
+        background-color: #181818 !important;
+        color: #777 !important;
+    }
+    
+     .wikitable th
+    {
+        background-color: #1a282a !important;
+        color: #777 !important;
+        border: 1px solid #333 !important;
+    }
+    
+    .mw-mmv-post-image, .mw-mmv-image-metadata, .mwe-popups-container, .MainPageBG, .mp-box
+    {
+        background-color: #222 !important;       
+        color: #AAA !important;
+        border: 1px solid #555 !important;
+    }
+    
+    .mwe-popups a:after{
+       background: none !important
+    }
+    
+    .infobox, .mp-h2
+    {
+        border: 1px solid #555 !important;
+    }
+    
+    .infobox tbody tr, .infobox tbody td
+    {
+        background-color: #333 !important; 
+    }    
+        
+    .navbox-title, .mw-normal-catlinks, .mp-h2, .infobox-header
+    {
+        background-color: #1a282a !important;
+    }
+    
+    .sidebar tr
+    {
+        background-color: #333 !important;
+    }
+
+    .sidebar td
+    {
+        background-color: #222 !important;
+    }
+
+    
+    .catlinks
+    {
+        background-color: #333 !important; 
+        border: 1px solid #555 !important;
+        text-align: center !important;
+    }
+    
+    .thumb, .thumbinner, .thumbimage
+    {
+        background-color: #333 !important; 
+        border: 1px solid #666 !important;
+    }
+    
+    .navbox-group
+    {
+        background-color: #222 !important;
+        border: 1px solid #333 !important;
+    }
+
+    .mw-page-container, p
+    {
+        background-color: #222 !important;
+        color: #999 !important;
+    }
+    
+    h1, h2, h3, h4, h5
+    {
+        color: #CCC !important;
+    }
+    
+    .vector-toc, .vector-pinnable-element, .infobox, .vevent
+    {
+        background-color: #333 !important;
+        color: #999 !important;
+    }
+    
+    .mw-logo, .mw-ui-icon
+    {
+      filter: invert(75%) !important;
+    }
+    
+    a
+    {
+       color: #9077b0 !important;
+    
+       /*font-weight: bold;*/
+    }
+    a:hover
+    {
+        color: #6da8ba !important;
+        text-decoration: none !important;
+    }
+        
+    .vector-toc-pinned #vector-toc-pinned-container .vector-toc:after {background: none !important}
+    
+    
+
+}
